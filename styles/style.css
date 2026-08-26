@@ -273,3 +273,37 @@ header .nav-parent {
   color: #627382;
   margin-bottom: 24px;
 }
+/* Footer Section */
+.footer-container {
+  background-color: #001931;
+}
+.footer-content {
+  padding: 120px 120px 30px 120px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-container .link p {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+.footer-container .link i {
+  color: rgb(3, 250, 98);
+  cursor: pointer;
+  /* margin: 2px; */
+}
+footer hr {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.copy-right {
+  display: flex;
+  justify-content: center;
+  color: #fafafa;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 25px;
+  padding: 30px 0;
+}
